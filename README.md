@@ -1,3 +1,18 @@
+## Welcome to the Crypto Boring Machine aka CBM
+
+The [CMB](https://github.com/epix-sh/crypto-boring-machine) is a bunch of scripts and tools pretending to help you to manage you linux system while you are trying to mine some cryptocurrencies.
+
+## Shakespeare is out
+
+I'm not very fluent nor skilled in english. So, there is no figure of speech or any rhetorical operation on the menu.
+Being understood is my only goal.
+
+
+
+
+
+temporary
+old content - backup purpose only
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/epix-sh/crypto-boring-machine/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
