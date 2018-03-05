@@ -1,6 +1,6 @@
 ## Welcome to the Crypto Boring Machine aka CBM
 
-The [CBM](https://github.com/epix-sh/crypto-boring-machine) is a bunch of scripts and tools pretending to help you to manage you linux system while you are trying to mine some cryptocurrencies.
+The [CBM](https://github.com/epix-sh/crypto-boring-machine) is a bunch of scripts and tools pretending to help you to manage you linux operating system while you are trying to mine some cryptocurrencies.
 
 ## Shakespeare is out
 
