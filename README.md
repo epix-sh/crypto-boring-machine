@@ -4,14 +4,13 @@ The [CBM](https://github.com/epix-sh/crypto-boring-machine) is a bunch of script
 
 ## Shakespeare is out
 
-[I](https://github.com/epix-sh)'m not very fluent nor skilled in english. So, there is no figure of speech or any rhetorical operation on the menu.
+[I am](https://github.com/epix-sh) not very fluent nor skilled in english. So, there is no figure of speech or any rhetorical operation on the menu.
 Being understood is my only goal.
 
 ## Follow the project
-### GitHub.io Pages
+### GitHub Pages
+A more convenient way to follow the progress of the project is threw this website : [https://epix-sh.github.io/crypto-boring-machine](https://epix-sh.github.io/crypto-boring-machine/)
+### Twitter ?
+I am not a fan of twitter. But I will find something, one day, maybe.
 
-A more convenient way to follow the progress of the project is to chek this website : [https://epix-sh.github.io/crypto-boring-machine](https://epix-sh.github.io/crypto-boring-machine/)
-
-
-[GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/)
-[documentation](https://help.github.com/categories/github-pages-basics/)
+[GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/) - [Documentation](https://help.github.com/categories/github-pages-basics/)
