@@ -9,7 +9,7 @@ Being understood is my only goal.
 
 ## Follow the project
 ### GitHub Pages
-A more convenient way to follow the progress of the project is threw this website : [https://epix-sh.github.io/crypto-boring-machine](https://epix-sh.github.io/crypto-boring-machine/)
+A more convenient way to follow the progress of the project is through this website : [https://epix-sh.github.io/crypto-boring-machine](https://epix-sh.github.io/crypto-boring-machine/)
 ### Twitter ?
 I am not a fan of twitter. But I will find something, one day, maybe.
 
