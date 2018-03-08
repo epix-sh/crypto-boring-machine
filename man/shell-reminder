@@ -50,16 +50,16 @@ for i in ${!myarray[@]}; do echo ${myarray[i]}; done
 
 
 # Arguments
-$(1): arg 1
-$(2): arg 2
+$1: arg 1
+$2: arg 2
 ...
-$(0): script full path
-$(@): all args in a row (still x args)
-$(*): all args in one arg
-$(#): arg count
-$(?): last return statement
-$($): PID of the shell exceuting the script
-$(!): PID of the last process launched
+$0: script full path
+$@: all args in a row (still x args)
+$*: all args in one arg
+$#: arg count
+$?: last return statement
+$$: PID of the shell exceuting the script
+$!: PID of the last process launched
 
 Shift: push all args toward $(1) by 1 step
 Shift x: push all args toward $(1) by x steps
