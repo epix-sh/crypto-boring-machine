@@ -1,0 +1,106 @@
+# Show the system default shell
+echo $SHELL
+
+# Show the current shell
+echo $0
+
+# Keep an eye on the PATH
+Some times the rule of "first come, first served" is applied
+echo $PATH
+
+# chmod
+99%: chmod +x ./file.sh
+01%: chmod 755 ./file.sh
+
+Do you want more ?
+
+chmod g+r ./file.sh		: add read to the group
+chmod u+rw,go+r ./file.sh	: add read and write to the user and read to the group and others
+chomd g=u ./file.sh		: give to group the rights of user
+
+u user
+g group
+o others
+a all
+
+! # ! mod !
+-----------
+! 0 ! --- !
+! 1 ! --x !
+! 2 ! -w- !
+! 3 ! -wx !
+! 4 ! r-- !
+! 5 ! r-x !
+! 6 ! rw- !
+! 7 ! rwx !
+-----------
+
+# chown
+chown user:group ./file.sh
+
+# Variable
+var=something
+var=$(wc -l < file)
+env : all env var
+myarray=("John" "Jane") or myarray[0]='John' ... myarray[1]='Jane' ...
+echo ${#myarray[@]} : count of values
+echo ${myarray[1]} : Jane
+echo ${myarray[@]} : John Jane
+for i in ${!myarray[@]}; do echo ${myarray[i]}; done
+
+
+# Arguments
+$(1): arg 1
+$(2): arg 2
+...
+$(0): script full path
+$(@): all args in a row (still x args)
+$(*): all args in one arg
+$(#): arg count
+$(?): last return statement
+$($): PID of the shell exceuting the script
+$(!): PID of the last process launched
+
+Shift: push all args toward $(1) by 1 step
+Shift x: push all args toward $(1) by x steps
+
+# File system
+file ./file.sh : find the type of a file
+stat ./file.sh : bunch of infos on a file
+pwd : current directory
+wc : count inside a file
+
+# Tools
+free : memery free
+uptime : time since the last boot
+fail -f /var/log/mylog : open the log and follow
+head -n 10 /var/log/mylog : open the log and show the first 10 lines
+
+stdout : 1
+stderr : 2
+foo bar 1> logfile : redirect stdout to a file
+foo bar 2> logfile : redirect stderr to a file
+foo bar 2>&1 logfile : redirect stderr to stdout and then to a file
+
+echo "john.doe@gmail.com" | sed 's/@/ at /' | sed 's/\./ dot /'
+john dot doe at gmail.com
+'s/A/B/' : substitute A by B
+'s/.../' : substitute (implicit the 1st found)
+'s/../g' : substitue all found
+'s/../3' : substitute the 3rd one
+
+test
+man test
+test -f /etc/passwd
+echo $?
+0
+[ -f /etc/passwd ]
+echo $?
+0
+and : -a
+or : -o
+not : !
+
+
+# PATH
+export PATH=$PATH:/foo/bar : add a path to the PATH
